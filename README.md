@@ -33,3 +33,18 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 ```bash
 npm i element-ui -S
 ```
+
+## 已存在的git仓库推送到github（初始操作）
+```bash
+git remote add origin REMOTE-URL 本地和远程github仓库进行关联
+git branch -M main
+git push -u origin main 将本地代码推送到远程main分支中
+```
+
+### 更新操作
+```bash
+git add .
+git commit -m "提交信息"
+git push origin 你的分支 或
+git push
+```
