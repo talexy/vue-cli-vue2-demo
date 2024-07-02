@@ -27,3 +27,9 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 1. 全局安装vue-cli `npm install -g @vue/cli`
 2. 验证vue-cli版本 `vue -V`
 3. 创建vue2项目 `vue create my-project`
+
+
+## 安装element-ui
+```bash
+npm i element-ui -S
+```
